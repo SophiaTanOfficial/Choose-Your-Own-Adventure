@@ -10,26 +10,26 @@
     </head>
     <body>
         <div class = "container blue accent-1">
-            <div class = "row black-text">This prompt is {{prompt}}</div>
+            <div class = "row black-text">{{prompt}}</div>
             <div class = "row" id = "pic">
                 <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3VoxOU34BwRB2RHPxw5zS6J432Y47ekzLaezTv9Zg2cIRsMv" style = "width:70%;height:70%";>
             </div>
             <div class = "row">
-                <div class = "col l4">
+                <div class = "col l6">
                     <form action = "/round1">
-                        <button type = "submit" name="answer" value="a" onclick="choice = choice_a"> This choice is {{choice_a}}</button>
+                        <button type = "submit" name="answer" value="a" onclick="choice = choice_a">{{choice_a}}</button>
                     </form>
                 </div>
-                <div class = "col l4">
+                <div class = "col l6">
                     <form action = "/round1">
-                        <button type = "submit" name="answer" value="b" onclick="choice = choice_b"> This choice is {{choice_b}}</button>
+                        <button type = "submit" name="answer" value="b" onclick="choice = choice_b">{{choice_b}}</button>
                     </form>
                 </div>
-                <div class = "col l4">
-                    <form action = "/round1">
-                        <button type = "submit" name="answer" value="c" onclick="choice = choice_c">This choice is {{choice_c}}</button>
-                    </form>
-                </div>
+                <!--<div class = "col l4">-->
+                <!--    <form action = "/round1">-->
+                <!--        <button type = "submit" name="answer" value="c" onclick="choice = choice_c">{{choice_c}}</button>-->
+                <!--    </form>-->
+                <!--</div>-->
             </div>
         </div>
     </body>

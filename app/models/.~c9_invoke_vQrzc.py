@@ -1,6 +1,6 @@
 #List of options
 choices = [
-    {"a": "Follow the path.", "b": "Follow the sound of water."},
+    {"a": "Follow the path.", "b": "Cut through the forest.", "c": "Follow the sound of water."},
     {"a": "Search the village.", "b": "Leave."},
     {"a": "Go upstream.", "b": "Go downstream.", "c": "Cut across the river."},
     {"a": "Search the area around the waterfall.", "b": "Climb the rocks next to the waterfall."},
@@ -22,20 +22,18 @@ choices = [
     {"a": "Form a contract with the dragon.", "b": "Inquire about the treasure."},
     {"a": "Excalibur!", "b":"Aegis"},
     {"a": "Screw it, I'll summon something! Anything!", "b": "NOOOOOOOOOO!"},
-    {"a": "A cat?", "b": "A chimera?"},
-    {"a": "Hakuna Matata!", "b": "Decline."},
-    {"a": "Death awaits.", "b": "The word lost does not exist in my dictionary!"}
+    {"a": "A cat?", "b": "A chimera?"}
 ]
 
 #Dictionary of locations 
 locations = {
     "beginning": "You're in the forest. Where do you want to go?",
     "village": "You follow the path and arrive at a village.",
-    "forest": "ow can you eat without feeding the doggos? You encounter a wolf and die.",
+    "forest": "Looks like today's your unlucky day. You encounter a wolf and die.",
     "abandon": "You're just not feeling the treasure today? See you next time.",
     "searchedVil": "You search the village and find the treasure! Good job!", 
     "river": "You follow the sound of water and arrive at a river.",
-    "drown": "You slip and fall into the river. The current carries you away and smashes you against rocks. The world grows dark around you.",
+    "drown": "The current carries you away and smashes you against rocks. The world grows dark around you.",
     "upstream": "You arrive at a waterfall.",
     "waterfallDeath": "Due to the spray from the waterfall, you slip on the rocks and fall. Ouch.",
     "behindWaterfall": "You find a secret cave behind the waterfall.",
@@ -48,7 +46,7 @@ locations = {
     "deer": "Deer would be a safe bet, right? No. You're run over by a stampede.",
     "predator": "You use the force of your hunger to scare a wolf to death. Neat. How're you cooking it?",
     "grill": "You skin the wolf and grill it. Yum. Now that you're full, where to next?",
-    "raw": "You eat it raw like a barbarian and get a stomachache. Actually, you're seriously dying here. Best to leave before it's too late.",
+    "raw": "You eat it raw and get a stomachache. Actually, you're seriously dying here. Best to leave before it's too late.",
     "nmeat": "Are you really going to be okay? Anyway, are you still gonna eat meat?",
     "nnmeat": "Probably for the best. You decide to end for today and leave the forest.",
     "vegetarian": "So, you're a vegetarian. Pick your pois--leaf. Pick your leaf.",
@@ -80,14 +78,5 @@ locations = {
     "aegis": "Irate, the sword cuts you down while screaming that it's not an aegis.",
     "statues": "What?! The statues started moving. You run into a chamber that looks like it's made for human sacrifices.",
     "summon": "You scatter your blood around desparately. To your surprise, something actually appears. What is it?",
-    "cat": "The cat transforms into Simba. He destroys the statues and invites you back to Pride Rock.",
-    "pride": "Screw treasure! You return to Pride Rock with Simba.",
-    "decline": "You bid farewell to Simba and go to the hall with paintings. Wait, did that painting just move?",
-    "chimera": "The chimera destroys all the statues, and you with them. Sayonara.",
-    "pright": "You go right, but after walking for a while, you realize you're lost. What do you do?",
-    "deathawaits": "And so it does. Enjoy your slumber.",
-    "panic": "Yeah, screaming doesn't do much. The statues sacrifice you.",
-    "lost": "Miraculously, you somehow run into a village after declaring your lack of vocabulary. So?",
-    "ghosts": "Yeah, you're not messing with any ghosts today.",
-    "rright": "You run right... right into a corner. The smell of ash and flames haunts you."
+    "cat": "Actually, that's Merlin, "
 }

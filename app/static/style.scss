@@ -2,9 +2,11 @@ div {
     text-align: center;
     font-size: 30px;
     color: blue;
-    
+    padding-top: 10px 20px;
 }
-
+button{
+  background-color: #ff6f00;  
+}
 /*#pic{*/
 /*    img src: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3VoxOU34BwRB2RHPxw5zS6J432Y47ekzLaezTv9Zg2cIRsMv");*/
 /*    background-repeat: no-repeat;*/
@@ -367,9 +369,9 @@ body {
 
 /* Stars
   ---------------------------------------------- */
-  .stars{
-    height: 100%;
-    z-index: 2;
+  .stars, .clouds, .twinkleWrap, .lighting, .sunmask, .vignette {
+    height: 75%;
+    z-index: 0;
     position: absolute;
     width: 100%; 
      
@@ -1168,6 +1170,11 @@ body {
   }
 
 
+svg {
+  z-index: -1 !important;
+}
 
-
+.button1{
+  padding-top: 20px 30px !important;
+}
 

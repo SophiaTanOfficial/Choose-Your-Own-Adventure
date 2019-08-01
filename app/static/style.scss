@@ -3,10 +3,54 @@ div {
     font-size: 30px;
     color: blue;
     padding-top: 10px 20px;
+    font-family: "Times New Roman";
 }
-button{
-  background-color: #ff6f00;  
+.play{
+  background-color: #b2dfdb;
+  position: relative;
+  right: 80%;
+  font-size: 50px !important;
+  // font-style: oblique;
+  border-radius: 8px;
+  font-family: "Times New Roman";
+  
 }
+.instructions{
+  background-color: #b2dfdb;
+  position: relative;
+  left: 80%;
+  font-size: 50px !important;
+  // font-style: oblique;
+  border-radius: 8px;
+  font-family: "Times New Roman";
+  
+}
+.heading{
+  font-size: 60px;
+  padding-top: 100px;
+  font-style: oblique;
+  color: black;
+  word-wrap: break-word;
+  font-family: "Times New Roman";
+ 
+}
+
+.choice{
+  background-color: #b2dfdb;
+  position: relative;
+  // right: 80%;
+  font-size: 35px !important;
+  // font-style: oblique;
+  border-radius: 8px;
+  font-family: "Times New Roman";
+  
+}
+
+.choice:hover{
+  background-color: #80cbc4;
+  font-family: "Times New Roman";
+}
+
 /*#pic{*/
 /*    img src: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJ3VoxOU34BwRB2RHPxw5zS6J432Y47ekzLaezTv9Zg2cIRsMv");*/
 /*    background-repeat: no-repeat;*/
@@ -572,7 +616,6 @@ body {
 
   #bottom{
     animation-name: bottomFill;
-    height: 100%;
     position: absolute;
     top: 88%;
     width: 100%;

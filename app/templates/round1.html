@@ -17,12 +17,12 @@
             <div class = "row">
                 <div class = "col l6">
                     <form action = "/round1">
-                        <button type = "submit" name="answer" value="a" onclick="choice = choice_a">{{choice_a}}</button>
+                        <button class = "choice" type = "submit" name="answer" value="a" onclick="choice = choice_a">{{choice_a}}</button>
                     </form>
                 </div>
                 <div class = "col l6">
                     <form action = "/round1">
-                        <button type = "submit" name="answer" value="b" onclick="choice = choice_b">{{choice_b}}</button>
+                        <button class = "choice" type = "submit" name="answer" value="b" onclick="choice = choice_b">{{choice_b}}</button>
                     </form>
                 </div>
                 <!--<div class = "col l4">-->
@@ -32,5 +32,20 @@
                 <!--</div>-->
             </div>
         </div>
+         <div class="controls">
+            <ul>
+                  <li><a href="#" class="noiseTest">Noise</a></li>
+                  <li><a href="javascript:history.go(0)">Refresh</a></li>
+                  <li>
+                        <span class="title">Audio</span>
+                        <audio loop controls autoplay id="player">
+                        <source src="https://louie.co.nz/25th_hour/audio/Singing_Bowls_Throat.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                  </li>
+            </ul>
+
+            <div class="counter"></div>
+      </div>
     </body>
 </html>

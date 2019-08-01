@@ -31,7 +31,7 @@ choices = [
 locations = {
     "beginning": "You're in the forest. Where do you want to go?",
     "village": "You follow the path and arrive at a village.",
-    "forest": "ow can you eat without feeding the doggos? You encounter a wolf and die.",
+    "forest": "How can you eat without feeding the doggos? You encounter a wolf and die.",
     "abandon": "You're just not feeling the treasure today? See you next time.",
     "searchedVil": "You search the village and find the treasure! Good job!", 
     "river": "You follow the sound of water and arrive at a river.",
@@ -88,6 +88,6 @@ locations = {
     "deathawaits": "And so it does. Enjoy your slumber.",
     "panic": "Yeah, screaming doesn't do much. The statues sacrifice you.",
     "lost": "Miraculously, you somehow run into a village after declaring your lack of vocabulary. So?",
-    "ghosts": "Yeah, you're not messing with any ghosts today.",
+    "ghost": "Yeah, you're not messing with any ghosts today.",
     "rright": "You run right... right into a corner. The smell of ash and flames haunts you."
 }

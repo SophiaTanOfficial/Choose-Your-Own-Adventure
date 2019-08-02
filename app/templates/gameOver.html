@@ -1,0 +1,43 @@
+<html>
+    <head>
+        <title>Adventurer's Choice</title>
+        <link rel = "stylesheet" type = "text/css" href= "static/style.scss">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!--Let browser know website is optimized for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    </head>
+    <body>
+        <div class = "container blue accent-1">
+            <div class = "row black-text">{{prompt}}</div>
+                <!--<a href="/" class="choice">Start Over!</a>-->
+            <div class = "row" id = "pic">
+                <img src = "{{img}}" style = "width:65%;height:65%";>
+            </div>
+            <div class = "row">
+                
+                <div class = "col l4 offset-l4">
+                    <button class = "choice" type= "button">
+                        <a href="/" class="choice">Start Over!</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+         <div class="controls">
+            <ul>
+                  <li><a href="#" class="noiseTest">Noise</a></li>
+                  <li><a href="javascript:history.go(0)">Refresh</a></li>
+                  <li>
+                        <span class="title">Audio</span>
+                        <audio loop controls autoplay id="player">
+                        <source src="https://louie.co.nz/25th_hour/audio/Singing_Bowls_Throat.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                  </audio>
+                  </li>
+            </ul>
+
+            <div class="counter"></div>
+      </div>
+    </body>
+</html>

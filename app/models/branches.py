@@ -5,7 +5,7 @@ choices = [
     {"a": "Go upstream.", "b": "Go downstream.", "c": "Cut across the river."},
     {"a": "Search the area around the waterfall.", "b": "Climb the rocks next to the waterfall."},
     {"a": "Go left.", "b": "Go right."},
-    {"a": "Dang I'm hungry, I need to eat!", "b": "I'm done with this treasure crap. Lemme out."},
+    {"a": "Dang I'm hungry, I need to eat!", "b": "I'm done with this treasure crap."},
     {"a": "Meat sounds nice.", "b": "I'm a vegetarian."},
     {"a": "Yes.", "b":"No."},
     {"a": "Deer.", "b": "The fiercest predator in this forest!"},

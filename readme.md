@@ -1,3 +1,5 @@
+Play game at http://fintech-choose-your-adventure.herokuapp.com/
+
 # Flask App Template
 
 ## Quick Setup:
